@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
 title = "Max King: Office Lady"
-theme = "officelady"
+theme = "site"
 # disable language
 disableLanguages = [] # desable language from here
 

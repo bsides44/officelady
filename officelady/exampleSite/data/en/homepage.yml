@@ -1,0 +1,273 @@
+########################## hero area ##########################
+hero:
+  title : "Max King: Office Lady"
+
+  # animated text loop
+  occupations:
+    - "Books: Kept"
+    - "Timetable: Organised"
+    - "Admin: Done"
+
+  # slider background image loop
+  slider_image:
+    - "images/1.jpg"
+    - "images/4.jpg"
+    - "images/6.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "HIRE ME"
+    link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/7.jpg"
+  first_name : "Max King"
+  last_name : "Office Lady"
+  
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/maxking1.png"
+  title : "HOW CAN <br> I HELP?"
+  content : "With twenty years experience in business administration, including managing my own successful business for 12 years, I can help you streamline your business so you can focus on doing what you love.<br><br>
+I thrive on giving excellent customer service, so why not let that work for your business?<br><br>There are four easy steps:<br><br>1. We get to know each other, so I get a clear idea of your needs.<br>2. We create a tailor-made plan to service those needs.<br>3. We implement the plan!<br>4. Regular feedback to fine tune and evolve with your company’s needs."
+  # button
+  button:
+    enable : true
+    label : "DOWNLOAD MY CV"
+    link : "#" # you can put your cv in static folder and give the path here.
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "EXPERIENCE"
+  experience_list:
+    # experience item loop
+    - name : "Owner & Manager"
+      company : "Raglan Childcare and Education Center"
+      duration : "2004-2016"
+      content : "Streamlined rostering system to save $25K pa<br>
+Grew revenue by 10%<br>
+Introduced digital tools to improve payroll and parent relations<br>
+Led the move towards a Growth Mindset culture<br>
+Facilitated strategic reviews that brought about improved outcomes for children"
+      
+    # experience item loop
+    - name : "Northern Regional Administrators"
+      company : "Airways Corp"
+      duration : "2002-2004"
+      content : "Cheif of administration for the seven regional air traffic control towers in the upper North Island<br>Organised the annual budget conference for 64 Tower Cheifs<br>Collated data and generated reports on air safety and budget<br>Organised travel and accommodation for key personnel<br>Supported Manager with scheduling and communication"
+      
+    # experience item loop
+    - name : "Office Manager"
+      company : "The Art of Learning"
+      duration : "1995-2002"
+      content : "Organised marketing communications <br>Liaising with schools to manage educational course bookings<br>Managed calendars, travel and accomodation, and resources for course presenters<br>Took care of all office management including invoicing, accounts payable, budget management, payroll and purchasing"
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "SKILL"
+  skill_list:
+    # skill item loop
+    - name : "Balancing a budget"
+      parcentage : "98%"
+      
+    # skill item loop
+    - name : "Managing accounts"
+      parcentage : "85%"
+      
+    # skill item loop
+    - name : "Client liaison"
+      parcentage : "90%"
+      
+    # skill item loop
+    - name : "Managing a mailing list"
+      parcentage : "70%"
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "SERVICES"
+  service_list:
+    # service item loop
+    - name : "Book Keeping"
+      image : "images/icons/web-development.png"
+      
+    # service item loop
+    - name : "Website Management"
+      image : "images/icons/graphic-design.png"
+      
+    # service item loop
+    - name : "Database Management"
+      image : "images/icons/dbms.png"
+      
+    # service item loop
+    - name : "Calendar Management"
+      image : "images/icons/software-development.png"
+      
+    # service item loop
+    - name : "Budget Planning"
+      image : "images/icons/marketing.png"
+      
+    # service item loop
+    - name : "Client Management"
+      image : "images/icons/mobile-app.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : true
+  bg_image : "images/2.jpg"
+  title : "NEED A SERVICE?"
+  button:
+    enable : true
+    label : "SAY HELLO!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : false
+  title : "PORTFOLIO"
+  portfolio_list:
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item1.jpg"
+      date : "Feb 2018"
+      category : "Web Development"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item2.jpg"
+      date : "Feb 2018"
+      category : "Web Development"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item3.jpg"
+      date : "Feb 2018"
+      category : "Web Development"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item4.jpg"
+      date : "Feb 2018"
+      category : "Web Development"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item5.jpg"
+      date : "Feb 2018"
+      category : "Web Development"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item6.jpg"
+      date : "Feb 2018"
+      category : "Web Development"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item"
+      date : "Feb 2018"
+      category : "Graphics"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item8.jpg"
+      date : "Feb 2018"
+      category : "Graphics"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item9.jpg"
+      date : "Feb 2018"
+      category : "Database"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item10.jpg"
+      date : "Feb 2018"
+      category : "Database"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item11.jpg"
+      date : "Feb 2018"
+      category : "Database"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item12.jpg"
+      date : "Feb 2018"
+      category : "Graphics"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item13.jpg"
+      date : "Feb 2018"
+      category : "Graphics"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item14.jpg"
+      date : "Feb 2018"
+      category : "Graphics"
+      
+    # portfolio item loop
+    - name : "Project <br> Title"
+      image : "images/portfolio/item15.jpg"
+      date : "Feb 2018"
+      category : "Graphics"
+
+
+################################# Testimonial #########################33
+testimonial:
+  enable : true
+  title : "TESTIMONIALS"
+  testimonial_slider:
+    # slider item loop
+    - name : "Jessica Clark"
+      image : "images/maxking1.png"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  funfacts_list:
+    # funfacts item loop
+    - name : "CLIENT REVENUE INCREASED"
+      image : "images/icons/works.png"
+      count : "10%"
+      
+    # funfacts item loop
+    - name : "MINUTES SAVED PER WEEK"
+      image : "images/icons/happy.png"
+      count : "200"
+      
+    # funfacts item loop
+    - name : "BUDGETS MANAGED"
+      image : "images/icons/project.png"
+      count : "1.25m"
+      
+    # funfacts item loop
+    - name : "HEADACHES REDUCED"
+      image : "images/icons/coffee.png"
+      count : "85%"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "SAY HELLO!"

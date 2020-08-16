@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://officelady.onrender.com"
 title = "Max King: Office Lady"
 theme = "site"
 # disable language

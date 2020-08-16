@@ -232,7 +232,7 @@ portfolio:
 ################################# Testimonial #########################33
 testimonial:
   enable : true
-  title : "TESTIMONIALS"
+  title : "STATS"
   testimonial_slider:
     # slider item loop
     - name : "Jessica Clark"
@@ -247,24 +247,24 @@ funfacts:
   enable : true
   funfacts_list:
     # funfacts item loop
-    - name : "CLIENT REVENUE INCREASED"
+    - name : "% REVENUE INCREASED"
       image : "images/icons/works.png"
-      count : "10%"
+      count : "10"
       
     # funfacts item loop
     - name : "MINUTES SAVED PER WEEK"
-      image : "images/icons/happy.png"
+      image : "images/icons/marketing.png"
       count : "200"
       
     # funfacts item loop
-    - name : "BUDGETS MANAGED"
+    - name : "BUDGETS MANAGED (M)"
       image : "images/icons/project.png"
-      count : "1.25m"
+      count : "1.25"
       
     # funfacts item loop
-    - name : "HEADACHES REDUCED"
+    - name : "% HEADACHES REDUCED"
       image : "images/icons/coffee.png"
-      count : "85%"
+      count : "85"
 
 
 ############################## contact ###########################

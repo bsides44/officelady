@@ -6,10 +6,14 @@
       Start Header
     =============================== -->
 <section class="header" id="home">
-  <div class="logo">
-    <h3>{{ .Site.Params.logo_text | markdownify }}</h3>
-    <!-- <img class="img-fluid" src="{{ .Site.Params.logo_light | relURL }}" alt="{{ .Site.Title }}"> -->
-  </div>
+  <a class="inv-link" href="/">
+    <div class="logo">
+      <h3 class="vertical">{{ .Site.Params.logo_text_one | markdownify }}</h3>
+      <h3 class="logo-text">{{ .Site.Params.logo_text_two | markdownify }}</h3>
+
+      <!-- <img class="img-fluid" src="{{ .Site.Params.logo_light | relURL }}" alt="{{ .Site.Title }}"> -->
+    </div>
+  </a>
   <div class="slider-prev-button slider-button">
     <i class="fa fa-angle-left"></i>
   </div>
@@ -63,7 +67,10 @@
           <div class="full-nav-content">
             <div class="name">
               {{ with $data.homepage.fullscreen_nav.first_name }}<div class="first-name">{{ . }}</div>{{ end }}
-              {{ with $data.homepage.fullscreen_nav.last_name }}<div class="last-name">{{ . }}</div>{{ end }}
+              <div class="mobile-title">
+                {{ with $data.homepage.fullscreen_nav.middle_name }}<div class="middle-name">{{ . }}</div>{{ end }}
+                {{ with $data.homepage.fullscreen_nav.last_name }}<div class="last-name">{{ . }}</div>{{ end }}
+              </div>
             </div>
             <div class="fulscreen-nav">
               <ul class="list-inline fullscreen-nav-holder">
@@ -98,6 +105,10 @@
     <!-- desktop-menu -->
     <div class="menu-container">
       <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
+        <a class="inv-link" href="/">
+          <h3 class="vertical vertical-menu">{{ .Site.Params.logo_text_one | markdownify }}</h3>
+          <h3 class="logo-text logo-text-menu">{{ .Site.Params.logo_text_two | markdownify }}</h3>
+        </a>
         {{ range .Site.Menus.main }}
         <li class="menu-item hvr-underline-from-left 1"><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
@@ -135,8 +146,9 @@
           </div>
         </a>
         <div class="mobile-menu-logo">
-          <a href="{{.Site.BaseURL | relLangURL }}">
-            <h3>{{ .Site.Params.logo_text | markdownify }}</h3>
+          <a class="inv-link" href="{{.Site.BaseURL | relLangURL }}">
+            <h3 class="vertical">{{ .Site.Params.logo_text_one | markdownify }}</h3>
+            <h3 class="logo-text">{{ .Site.Params.logo_text_two | markdownify }}</h3>
             <!-- <img class="img-fluid" src="{{ .Site.Params.logo_dark | absURL }}" alt="{{ .Site.Title }}"> -->
           </a>
         </div>

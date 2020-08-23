@@ -80,8 +80,9 @@ weight = 6
 #################### default parameters ################################
 [params]
 logo_light = "images/logo.png"
-logo_dark = "images/logo-dark.png"
-logo_text = "Office Lady"
+logo_dark = "images/logo.png"
+logo_text_one = "the"
+logo_text_two = "Office Lady"
 # Meta data
 description = "Max King is your virtual assistant. Spend your time making money by getting someone else to do your admin."
 author = "somrat"

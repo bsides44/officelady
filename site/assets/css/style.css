@@ -153,10 +153,43 @@ body {
 }
 
 .logo {
+  margin-top: 20px;
   position: absolute;
   z-index: 10;
   top: 2px;
   left: 40px;
+  border: 2px solid #9ebd5a
+}
+
+.vertical {
+  position: absolute;
+  transform: rotate(270deg);
+  left: 0px;
+  font-weight: 400;
+  top: 28px;
+  color: #9ebd5a
+}
+
+.logo-text {
+  width: 150px;
+  padding: 10px 0 0 44px;
+  color: #9ebd5a
+}
+
+.vertical-menu {
+  font-size: 20px;
+  left: 65px;
+  top: 18px
+}
+
+.logo-text-menu {
+  width: 115px;
+  padding-left: 0;
+  font-size: 22px
+}
+
+.inv-link:focus, .inv-link:hover {
+  text-decoration: none;
 }
 
 .no-js .logo {
@@ -436,6 +469,20 @@ input:checked + label span:last-child {
   font-size: 50px;
   font-weight: 400;
   padding-bottom: 20px;
+}
+
+.mobile-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.middle-name {
+  font-size: 30px;
+  transform: rotate(270deg);
+  position: relative;
+  left: 45px;
+  top: -11px
 }
 
 .last-name {

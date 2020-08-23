@@ -26,6 +26,7 @@ fullscreen_nav:
   enable : true
   bg_image : "images/7.jpg"
   first_name : "Max King"
+  middle_name : "the"
   last_name : "Office Lady"
   
 

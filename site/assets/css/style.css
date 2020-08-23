@@ -1913,6 +1913,18 @@ textarea.form-control::-webkit-input-placeholder,
     width: 185px;
   }
 
+  .vertical {
+    font-size: 15px;
+    left: 15px;
+    top: 16px
+  }
+  
+  .logo-text {
+    font-size: 16px;
+    width: 120px;
+    padding-top: 5px;
+  }
+
 }
 
 @media (max-width: 880px) {

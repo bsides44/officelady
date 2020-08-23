@@ -38,7 +38,7 @@ about:
 I thrive on giving excellent customer service, so why not let that work for your business?<br><br>There are four easy steps:<br><br>1. We get to know each other, so I get a clear idea of your needs.<br>2. We create a tailor-made plan to service those needs.<br>3. We implement the plan!<br>4. Regular feedback to fine tune and evolve with your company’s needs."
   # button
   button:
-    enable : true
+    enable : false
     label : "DOWNLOAD MY CV"
     link : "#" # you can put your cv in static folder and give the path here.
 
@@ -229,7 +229,7 @@ portfolio:
 
 ################################# Testimonial #########################33
 testimonial:
-  enable : true
+  enable : false
   title : "STATS"
   testimonial_slider:
     # slider item loop

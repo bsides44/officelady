@@ -908,7 +908,11 @@ input:checked + label span:last-child {
 
 .about-me {
   background: #fff;
-  padding: 125px 0px 70px 0px;
+  padding: 125px 0px 0px 0px;
+}
+
+.experience {
+  padding-top: 0px !important;
 }
 
 .about-me-text h1 {

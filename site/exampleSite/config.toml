@@ -11,8 +11,6 @@ disableLanguages = [] # desable language from here
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/fontawesome/font-awesome.min.css"
-[[params.plugins.css]]
 link = "plugins/hover/hover.css"
 [[params.plugins.css]]
 link = "plugins/magnific-popup/magnific-popup.css"

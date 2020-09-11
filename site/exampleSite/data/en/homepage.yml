@@ -62,7 +62,7 @@ Facilitated strategic reviews that brought about improved outcomes for children"
     - name : "Northern Regional Administrators"
       company : "Airways Corp"
       duration : "2002-2004"
-      content : "Cheif of administration for the seven regional air traffic control towers in the upper North Island<br>Organised the annual budget conference for 64 Tower Cheifs<br>Collated data and generated reports on air safety and budget<br>Organised travel and accommodation for key personnel<br>Supported Manager with scheduling and communication"
+      content : "Chief of administration for the seven regional air traffic control towers in the upper North Island<br>Organised the annual budget conference for 64 Tower Chiefs<br>Collated data and generated reports on air safety and budget<br>Organised travel and accommodation for key personnel<br>Supported Manager with scheduling and communication"
       
     # experience item loop
     - name : "Office Manager"
@@ -97,6 +97,59 @@ skill:
 service:
   enable : true
   title : "SERVICES"
+  service_one:
+    name: "In-Office Temping"
+    text: "I can come into your office and perform all the functions of an office manager for as long as you need. Excellent for in-person meetings, especially useful around tax time."
+  service_two:
+    name: "Remote Admin Services"
+    text: "I can also perform admin services remotely, making sure everything gets done and runs smoothly from my own offices. Perfect if the work comes in bits and pieces."
+  service_items_list:
+    - image: "images/icons/software-development.png"
+      text: "Calendar"
+      list: 
+        - item: "Diary management"
+        - item: "Travel organisation"
+        - item: "Appointment bookings"
+    - image: "images/icons/mobile-app.png"
+      text: "Admininstration"
+      list: 
+        - item: "Phone and email services"
+        - item: "Meeting minutes"
+        - item: "Call diversion"
+        - item: "Inbox management"
+    - image: "images/icons/dbms.png"
+      text: "Executive services"
+      list: 
+        - item: "Event Management"
+        - item: "Research"
+        - item: "Recruitment"
+    - image: "images/icons/marketing.png"
+      text: "Finance and Invoicing"
+      list: 
+        - item: "Payroll"
+        - item: "Invoicing"
+        - item: "Accounts payable"
+        - item: "Clerical accounts services"
+        - item: "Budget management"
+        - item: "Overdue bills"
+    - image: "images/icons/web-development.png"
+      text: "PR and Marketing Support"
+      list: 
+        - item: "Social media"
+        - item: "Website management"
+        - item: "Mailing list management"
+        - item: "Newsletters"
+        - item: "Presentations, promotional materials"
+        - item: "Website design and production support"
+    - image: "images/icons/graphic-design.png"
+      text: "Writing services"
+      list: 
+        - item: "Book publishing support"
+        - item: "Policy writing"
+        - item: "Word processing, transcription, data entry"
+        - item: "Document and report writing and editing"
+        - item: "Proofreading"
+        - item: "Template/form design"
   service_list:
     # service item loop
     - name : "PR and Marketing Support"

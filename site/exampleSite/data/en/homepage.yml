@@ -102,7 +102,7 @@ service:
     text: "I can come into your office and perform all the functions of an office manager for as long as you need. Excellent for in-person meetings, especially useful around tax time."
   service_two:
     name: "Remote Admin Services"
-    text: "I can also perform admin services remotely, making sure everything gets done and runs smoothly from my own offices. Perfect if the work comes in bits and pieces."
+    text: "I can also perform admin services online, making sure everything gets done and runs smoothly from my own office. Perfect if the work comes in bits and pieces."
   service_items_list:
     - image: "images/icons/software-development.png"
       text: "Calendar"
@@ -301,13 +301,13 @@ funfacts:
   enable : true
   funfacts_list:
     # funfacts item loop
-    - name : "% REVENUE INCREASED"
+    - name : "% OPPORTUNITES INCREASED"
       image : "images/icons/works.png"
       count : "10"
       
     # funfacts item loop
     - name : "MINUTES SAVED PER WEEK"
-      image : "images/icons/marketing.png"
+      image : "images/icons/happy.png"
       count : "200"
       
     # funfacts item loop

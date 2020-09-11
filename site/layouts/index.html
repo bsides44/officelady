@@ -15,10 +15,11 @@
     </div>
   </a>
   <div class="slider-prev-button slider-button">
-    <i class="fa fa-angle-left"></i>
+    <h3>
+      < </h3>
   </div>
   <div class="slider-next-button slider-button">
-    <i class="fa fa-angle-right"></i>
+    <h3>></h3>
   </div>
   {{ with $data.homepage.hero }}
   <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
@@ -469,7 +470,10 @@
               <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
               <h2>{{ .name }}</h2>
               <span>{{ .designation | markdownify }}</span>
-              <p><i class="fa fa-quote-left"></i> {{ .content | markdownify }} <i class="fa fa-quote-right"></i></p>
+              <p>
+              <h3>
+                < </h3>{{ .content | markdownify }} <h3>></h3>
+                  </p>
             </div>
           </div>
           {{ end }}

@@ -69,7 +69,10 @@
               {{ with $data.homepage.fullscreen_nav.first_name }}<div class="first-name">{{ . }}</div>{{ end }}
               <div class="mobile-title">
                 {{ with $data.homepage.fullscreen_nav.middle_name }}<div class="middle-name">{{ . }}</div>{{ end }}
-                {{ with $data.homepage.fullscreen_nav.last_name }}<div class="last-name">{{ . }}</div>{{ end }}
+                <div class="mobile-lastname-container">
+                  {{ with $data.homepage.fullscreen_nav.last_name }}<div class="last-name">{{ . }}</div>{{ end }}
+                  {{ with $data.homepage.fullscreen_nav.second_last_name }}<div class="second-last-name">{{ . }}</div>{{ end }}
+                </div>
               </div>
             </div>
             <div class="fulscreen-nav">
@@ -180,11 +183,11 @@
               {{ end }}
             </select>
             {{ end }} -->
-            <ul class="mobile-menu-icons list-inline">
+            <!-- <ul class="mobile-menu-icons list-inline">
               {{ range .Site.Params.social }}
               <li><a href="{{ .link | safeURL }}"><i class="fa {{ .icon }}"></i></a></li>
               {{ end }}
-            </ul>
+            </ul> -->
           </nav>
         </div>
       </div>

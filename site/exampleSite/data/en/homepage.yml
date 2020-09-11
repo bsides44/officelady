@@ -4,7 +4,7 @@ hero:
 
   # animated text loop
   occupations:
-    - "Books: Kept"
+    - "Accounts: Handled"
     - "Timetable: Organised"
     - "Admin: Done"
 
@@ -27,7 +27,9 @@ fullscreen_nav:
   bg_image : "images/7.jpg"
   first_name : "Max King"
   middle_name : "the"
-  last_name : "Office Lady"
+  last_name : "Office"
+  second_last_name : "Lady"
+
   
 
 ########################### About ##################################
@@ -36,7 +38,7 @@ about:
   image : "images/maxking1.png"
   title : "HOW CAN <br> I HELP?"
   content : "With twenty years experience in business administration, including managing my own successful business for 12 years, I can help you streamline your business so you can focus on doing what you love.<br><br>
-I thrive on giving excellent customer service, so why not let that work for your business?<br><br>There are four easy steps:<br><br>1. We get to know each other, so I get a clear idea of your needs.<br>2. We create a tailor-made plan to service those needs.<br>3. We implement the plan!<br>4. Regular feedback to fine tune and evolve with your company’s needs."
+I thrive on giving excellent customer service, so why not let that work for your business? Let me take care of all your office and administration tasks, freeing you up to do what you love.<br><br>There are four easy steps:<br><br>1. We get to know each other, so I get a clear idea of your needs.<br>2. We create a tailor-made plan to service those needs.<br>3. We implement the plan!<br>4. Regular feedback to fine tune and evolve with your company’s needs."
   # button
   button:
     enable : false
@@ -97,7 +99,7 @@ service:
   title : "SERVICES"
   service_list:
     # service item loop
-    - name : "Book Keeping"
+    - name : "Accounts"
       image : "images/icons/web-development.png"
       
     # service item loop

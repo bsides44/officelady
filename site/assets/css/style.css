@@ -1209,7 +1209,7 @@ ul.experience-chart h4 {
 
 .service-option {
   padding: 50px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   background-color: #dad7d7;
   border-right: 5px solid white;
 }

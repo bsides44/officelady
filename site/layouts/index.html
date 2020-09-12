@@ -207,7 +207,7 @@
     {{ if $data.homepage.about.enable }}
     {{ with $data.homepage.about }}
     <div class="row about-me-holder">
-      <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+      <div class="col-lg-6 col-md-6 col-sm-12 about-me-text d-flex align-self-center">
         <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
           <h1>{{ .title | safeHTML }}</h1>
           <p>{{ .content | safeHTML }}</p>
@@ -219,7 +219,7 @@
         </div>
       </div>
       {{ with .image }}
-      <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
+      <div class="col-lg-6 col-md-6 col-sm-12  about-me-images wow fadeInUp" data-wow-duration="1.5s">
         <img class="img-fluid" src="{{ . | absURL }}" alt="about-me">
       </div>
       {{ end }}
@@ -248,7 +248,7 @@
             <h1>{{ .title }}</h1>
           </div>
           <div class="row">
-            <div class="col-md-6 col-sm-12 service-option mb-md-5 mb-sm-1">
+            <div class="col-md-6 col-sm-12 service-option mb-md-5">
               {{ with .service_one }}
               <div class="service-label">{{ .name | markdownify }}</div>
               <p class="service-option-text">{{ .text | markdownify }}</p>
@@ -370,7 +370,22 @@
       {{ end }}
       {{ end }}
 
-      {{ if $data.homepage.skill.enable }}
+      {{ if $data.homepage.funfacts.enable }}
+      {{ with $data.homepage.funfacts }}
+      <div class="fun-facts col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
+        <!-- <div class="fun-facts wow fadeInUp" data-wow-duration="1.5s"> -->
+        {{ range .funfacts_list }}
+        <div class="fun-fact-holder">
+          <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
+          <p class="fact-counter count" data-count="{{ .count }}">0</p>
+          <p>{{ .name }}</p>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ end }}
+
+      <!-- {{ if $data.homepage.skill.enable }}
       {{ with $data.homepage.skill }}
       <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
         <h3>{{ .title }}</h3>
@@ -387,7 +402,9 @@
         </div>
       </div>
       {{ end }}
-      {{ end }}
+      {{ end }} -->
+
+
     </div>
   </div>
 </section>
@@ -472,20 +489,6 @@
         </div>
         {{ end }}
         {{ end }}
-
-        {{ if $data.homepage.funfacts.enable }}
-        {{ with $data.homepage.funfacts }}
-        <div class="fun-facts wow fadeInUp" data-wow-duration="1.5s">
-          {{ range .funfacts_list }}
-          <div class="fun-fact-holder">
-            <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name }}">
-            <p class="fact-counter count" data-count="{{ .count }}">0</p>
-            <p>{{ .name }}</p>
-          </div>
-          {{ end }}
-        </div>
-        {{ end }}
-        {{ end }}
       </div>
     </div>
   </div>
@@ -501,27 +504,40 @@
 <section class="contact" id="contact">
   <div class="container">
     <div class="row">
-      <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
+      <div class="contact-holder col-12">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ $data.homepage.contact.title }}</h1>
-        <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
-          <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
-            <div class="form-group col-lg-6">
-              <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
-              <div class="help-block with-errors"></div>
+        <h4 class="contact-link">
+          Email: <br />
+          <a href="mailto:{{$data.homepage.contact.email}}" target="_blank" rel="noopener noreferrer">
+            {{ $data.homepage.contact.email }}</a>
+        </h4>
+        <h4 class="contact-link">
+          Phone: <br />
+          <a href="tel:{{ $data.homepage.contact.phoneLink }}">
+            {{ $data.homepage.contact.phone }}
+          </a>
+        </h4>
+        <div class="col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
+          <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
+            <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
+              <div class="form-group col-lg-6">
+                <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group col-lg-6">
+                <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group col-lg-12">
+                <textarea class="form-control" name="message" id="message" rows="12" placeholder="Message"></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group col-lg-12 sub-button">
+                <button class="submit form-control hvr-icon-push" type="submit" value="send"> Submit </button>
+              </div>
             </div>
-            <div class="form-group col-lg-6">
-              <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-lg-12">
-              <textarea class="form-control" name="message" id="message" rows="12" placeholder="Message"></textarea>
-              <div class="help-block with-errors"></div>
-            </div>
-            <div class="form-group col-lg-12 sub-button">
-              <button class="submit form-control hvr-icon-push" type="submit" value="send"> Submit </button>
-            </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </div>
     <!-- <div class="row">

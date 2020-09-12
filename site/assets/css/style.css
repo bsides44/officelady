@@ -29,6 +29,10 @@ body {
   opacity: 1;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .preloader {
   position: fixed;
   top: 0;
@@ -1209,7 +1213,7 @@ ul.experience-chart h4 {
 
 .service-option {
   padding: 50px;
-  /* margin-bottom: 60px; */
+  margin-bottom: 5px;
   background-color: #dad7d7;
   border-right: 5px solid white;
 }
@@ -1582,6 +1586,7 @@ ul.experience-chart h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -1675,6 +1680,16 @@ ul.experience-chart h4 {
   width: 47px;
   height: 5px;
   background: #fff;
+}
+
+.contact-link{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-link a {
+  color: white;
 }
 
 .form-container {
@@ -2026,6 +2041,14 @@ textarea.form-control::-webkit-input-placeholder,
     left: 24px;
   }
 
+  .about-me-images img {
+    margin: 20px 0;
+  }
+
+  .about-me-text {
+    margin: 80px 0 0 !important;
+  }
+
 }
 
 @media (min-height: 301px) and (max-height: 500px) {
@@ -2211,12 +2234,6 @@ textarea.form-control::-webkit-input-placeholder,
   .min-width-bar {
     left: 40%;
     right: 40%;
-  }
-}
-
-@media (max-width: 475px) {
-  .services-heading h1 {
-    margin-bottom: 80px;
   }
 }
 

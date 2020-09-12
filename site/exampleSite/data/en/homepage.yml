@@ -5,7 +5,7 @@ hero:
   # animated text loop
   occupations:
     - "Accounts: Handled"
-    - "Timetable: Sorted"
+    - "Clients: Served"
     - "Admin: Done"
 
   # slider background image loop
@@ -38,7 +38,7 @@ about:
   image : "images/maxking1.png"
   title : "HOW CAN <br> I HELP?"
   content : "With twenty years experience in business administration, including managing my own successful business for 12 years, I can help you streamline your business so you can focus on doing what you love.<br><br>
-I thrive on giving excellent customer service, so why not let that work for your business?<br><br>There are four easy steps:<br><br>1. We get to know each other, so I get a clear idea of your needs.<br>2. We create a tailor-made plan to service those needs.<br>3. We implement the plan!<br>4. Regular feedback to fine tune and evolve with your company’s needs."
+Whether you need office temping or admin assistance, regular or casual, there are four easy steps:<br><br>1. Phone or email me, so I can get a clear idea of your needs.<br>2. We create a tailor-made plan to service those needs.<br>3. We implement the plan!<br>4. Regular feedback to fine tune and evolve with your company’s needs."
   # button
   button:
     enable : false
@@ -51,18 +51,19 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Owner & Manager"
+    - name : "Co-Owner & Manager"
       company : "Raglan Childcare and Education Center"
       duration : "2004-2016"
-      content : "Introduced digital tools to improve payroll and parent relations<br>
-Led the move towards a Growth Mindset culture<br>
-Facilitated strategic reviews that brought about improved outcomes for children"
+      content : "Managed all admin and business aspects of a successful early education centre with seven permanent staff.<br>
+      Introduced digital tools to improve payroll and parent relations<br>
+      Led the move towards a Growth Mindset culture<br>
+      Facilitated strategic reviews that brought about improved outcomes for children"
       
     # experience item loop
-    - name : "Northern Regional Administrators"
+    - name : "Northern Regional Administrator"
       company : "Airways Corp"
       duration : "2002-2004"
-      content : "Chief of administration for the seven regional air traffic control towers in the upper North Island<br>Organised the annual budget conference for 64 Tower Chiefs<br>Collated data and generated reports on air safety and budget<br>Organised travel and accommodation for key personnel<br>Supported Manager with scheduling and communication"
+      content : "Responsible for administration for the seven regional air traffic control towers in the upper North Island<br>Organised the annual budget conference for the Northern Regional Tower Chiefs<br>Collated data and generated reports on air safety and budget<br>Organised travel and accommodation for key personnel<br>Supported Manager with scheduling and communication"
       
     # experience item loop
     - name : "Office Manager"
@@ -73,7 +74,7 @@ Facilitated strategic reviews that brought about improved outcomes for children"
 
 ############################### Skill #################################
 skill:
-  enable : true
+  enable : false
   title : "SKILL"
   skill_list:
     # skill item loop
@@ -99,17 +100,11 @@ service:
   title : "SERVICES"
   service_one:
     name: "In-Office Temping"
-    text: "I can come into your office and perform all the functions of an office manager for as long as you need. Excellent for in-person meetings, especially useful around tax time."
+    text: "I can step in if your regular receptionist or office manager is away, anywhere in the Raglan area. I am happy to come in for a familiarisation visit beforehand for no charge."
   service_two:
-    name: "Remote Admin Services"
-    text: "I can also perform admin services online, making sure everything gets done and runs smoothly from my own office. Perfect if the work comes in bits and pieces."
+    name: "Admin Services"
+    text: "I can perform many of your admin services remotely from my own office, or come in to your office and help with clerical accounts, payroll, marketing, sorting End Of Year paperwork etc."
   service_items_list:
-    - image: "images/icons/software-development.png"
-      text: "Calendar"
-      list: 
-        - item: "Diary management"
-        - item: "Travel organisation"
-        - item: "Appointment bookings"
     - image: "images/icons/mobile-app.png"
       text: "Admininstration"
       list: 
@@ -117,12 +112,6 @@ service:
         - item: "Meeting minutes"
         - item: "Call diversion"
         - item: "Inbox management"
-    - image: "images/icons/dbms.png"
-      text: "Executive services"
-      list: 
-        - item: "Event Management"
-        - item: "Research"
-        - item: "Recruitment"
     - image: "images/icons/marketing.png"
       text: "Finance and Invoicing"
       list: 
@@ -132,6 +121,12 @@ service:
         - item: "Clerical accounts services"
         - item: "Budget management"
         - item: "Overdue bills"
+    - image: "images/icons/software-development.png"
+      text: "Calendar"
+      list: 
+        - item: "Diary management"
+        - item: "Travel organisation"
+        - item: "Appointment bookings"
     - image: "images/icons/web-development.png"
       text: "PR and Marketing Support"
       list: 
@@ -141,11 +136,17 @@ service:
         - item: "Newsletters"
         - item: "Presentations, promotional materials"
         - item: "Website design and production support"
+    - image: "images/icons/dbms.png"
+      text: "Executive services"
+      list: 
+        - item: "Event Management"
+        - item: "Recruitment"
+        - item: "Policy writing"
+        - item: "Research"
     - image: "images/icons/graphic-design.png"
       text: "Writing services"
       list: 
         - item: "Book publishing support"
-        - item: "Policy writing"
         - item: "Word processing, transcription, data entry"
         - item: "Document and report writing and editing"
         - item: "Proofreading"
@@ -306,14 +307,14 @@ funfacts:
       count : "10"
       
     # funfacts item loop
-    - name : "MINUTES SAVED PER WEEK"
+    - name : "HAPPY CLIENTS"
       image : "images/icons/happy.png"
-      count : "200"
+      count : "7"
       
     # funfacts item loop
-    - name : "BUDGETS MANAGED (M)"
+    - name : "HOURS SAVED"
       image : "images/icons/project.png"
-      count : "1.25"
+      count : "200"
       
     # funfacts item loop
     - name : "% HEADACHES REDUCED"
@@ -325,3 +326,6 @@ funfacts:
 contact:
   enable : true
   title : "SAY HELLO!"
+  phoneLink: "0064273671092"
+  phone: "027 367 1092"
+  email: max@theofficelady.co.nz

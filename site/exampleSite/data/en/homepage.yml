@@ -309,7 +309,7 @@ funfacts:
     # funfacts item loop
     - name : "HAPPY CLIENTS"
       image : "images/icons/happy.png"
-      count : "7"
+      count : "148"
       
     # funfacts item loop
     - name : "HOURS SAVED"

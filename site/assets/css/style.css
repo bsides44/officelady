@@ -157,33 +157,16 @@ body {
 }
 
 .logo {
-  margin-top: 20px;
   position: absolute;
   z-index: 10;
-  top: -7px;
+  top: 10px;
   left: 0px;
-  /* border: 2px solid #9ebd5a */
 }
 
 .menu-logo {
   width: 90px;
   position: relative;
 }
-
-/* .vertical {
-  position: absolute;
-  transform: rotate(270deg);
-  left: 5px;
-  font-weight: 400;
-  top: 28px;
-  color: #9ebd5a
-}
-
-.logo-text {
-  width: 150px;
-  padding: 11px 0 0 47px;
-  color: #9ebd5a
-} */
 
 .vertical-menu {
   font-size: 20px;
@@ -1940,37 +1923,10 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 @media (max-width: 1380px) {
-  /* .menu-logo .vertical, .mobile-menu-logo .vertical {
-    position: relative;
-    font-size: 15px;
-    left: -58px;
-    top: -33px;
-  }
-
-  .menu-logo .logo-text, .mobile-menu-logo .logo-text {
-    position: relative;
-    top: -15px;
-    font-size: 16px;
-    width: 100px;
-    padding-top: 10px;
-  } */
-
   .logo-text-menu {
     padding-left:30px
   }
 }
-
-/* @media (max-width: 600px) {
-  .mobile-menu-logo .logo-text {
-  position: relative;
-    top: -25px;
-    left: -35px;
-    padding-top: 5px;
-  } .mobile-menu-logo .vertical {
-    left: -52px;
-    top: -25px;
-  } 
-} */
 
 @media (max-width: 990px) {
   .header {
@@ -1986,35 +1942,14 @@ textarea.form-control::-webkit-input-placeholder,
 
 @media (max-width: 767px) {
   .logo {
-    left: 10px;
-    height: 60px;
-    width: 85px;
+    width: 160px;
+    left: -7px;
+    top:3px
   }
 
   .header .logo img {
     width: 185px;
   }
-
-  /* .vertical {
-    position: relative;
-    font-size: 15px;
-    left: -58px;
-    top: -33px;
-  }
-
-  .logo .vertical {
-    top: -10px;
-    left: -27px;
-  }
-
-  .logo .logo-text {
-    position: relative;
-    top: -25px;
-    left: -22px;
-    padding-top: 8px;
-    font-size: 16px;
-    width: 100px;
-  } */
 
   .last-name, .second-last-name {
     font-size: 70px;

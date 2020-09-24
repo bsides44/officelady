@@ -160,12 +160,17 @@ body {
   margin-top: 20px;
   position: absolute;
   z-index: 10;
-  top: 2px;
-  left: 40px;
-  border: 2px solid #9ebd5a
+  top: -7px;
+  left: 0px;
+  /* border: 2px solid #9ebd5a */
 }
 
-.vertical {
+.menu-logo {
+  width: 90px;
+  position: relative;
+}
+
+/* .vertical {
   position: absolute;
   transform: rotate(270deg);
   left: 5px;
@@ -178,7 +183,7 @@ body {
   width: 150px;
   padding: 11px 0 0 47px;
   color: #9ebd5a
-}
+} */
 
 .vertical-menu {
   font-size: 20px;
@@ -482,6 +487,12 @@ input:checked + label span:last-child {
   justify-content: center;
 }
 
+.mobile-title img {
+  margin-top: 60px;
+  width: 80vh;
+  display: flex
+}
+
 .middle-name {
   font-size: 50px;
   transform: rotate(270deg);
@@ -671,7 +682,7 @@ input:checked + label span:last-child {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: space-between;
   font-weight: bold;
   -webkit-transition: background 1s;
   transition: background 1s;
@@ -683,22 +694,6 @@ input:checked + label span:last-child {
 
 .menu-container-transparent {
   background: rgba(0, 0, 0, 0.6);
-}
-
-.desktop-menu-logo img {
-  height: 42px;
-}
-
-.desktop-menu-logo {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  left: 5px;
 }
 
 .menu-item {
@@ -745,6 +740,7 @@ input:checked + label span:last-child {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  padding-left: 50px;
 }
 
 .menu-item a {
@@ -779,12 +775,6 @@ input:checked + label span:last-child {
 
 .mobile-menu-logo img {
   height: 55px;
-}
-
-.mobile-menu-logo {
-  position: absolute;
-  left: 15px;
-  top: 4px;
 }
 
 .mobile-menu a {
@@ -1950,7 +1940,7 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 @media (max-width: 1380px) {
-  .menu-logo .vertical, .mobile-menu-logo .vertical {
+  /* .menu-logo .vertical, .mobile-menu-logo .vertical {
     position: relative;
     font-size: 15px;
     left: -58px;
@@ -1963,26 +1953,24 @@ textarea.form-control::-webkit-input-placeholder,
     font-size: 16px;
     width: 100px;
     padding-top: 10px;
-  }
+  } */
 
   .logo-text-menu {
     padding-left:30px
   }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .mobile-menu-logo .logo-text {
   position: relative;
     top: -25px;
     left: -35px;
     padding-top: 5px;
-  }
-
-  .mobile-menu-logo .vertical {
+  } .mobile-menu-logo .vertical {
     left: -52px;
     top: -25px;
-  }
-}
+  } 
+} */
 
 @media (max-width: 990px) {
   .header {
@@ -2007,7 +1995,7 @@ textarea.form-control::-webkit-input-placeholder,
     width: 185px;
   }
 
-  .vertical {
+  /* .vertical {
     position: relative;
     font-size: 15px;
     left: -58px;
@@ -2026,7 +2014,7 @@ textarea.form-control::-webkit-input-placeholder,
     padding-top: 8px;
     font-size: 16px;
     width: 100px;
-  }
+  } */
 
   .last-name, .second-last-name {
     font-size: 70px;
@@ -2130,11 +2118,9 @@ textarea.form-control::-webkit-input-placeholder,
     justify-content: flex-end;
     padding: 0px 20px;
     height: 0px;
-    background: #fff;
+    background: rgb(230, 222, 222);
   }
-  .desktop-menu-logo {
-    display: none;
-  }
+
   .menu-container-transparent {
     background: rgb(255, 255, 255);
   }

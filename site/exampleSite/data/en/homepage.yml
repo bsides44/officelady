@@ -99,11 +99,8 @@ service:
   enable : true
   title : "SERVICES"
   service_one:
-    name: "In-Office Temping"
-    text: "I can step in if your regular receptionist or office manager is away, anywhere in the Raglan area. I am happy to come in for a familiarisation visit beforehand for no charge."
-  service_two:
-    name: "Admin Services"
-    text: "I can perform many of your admin services remotely from my own office, or come in to your office and help with clerical accounts, payroll, marketing, sorting End Of Year paperwork etc."
+    name: "Admin from Anywhere"
+    text: "After we meet to determine your needs, I can complete your admin services remotely from my own office, sorting out all your requirements without taking up any space."
   service_items_list:
     - image: "images/icons/mobile-app.png"
       text: "Admininstration"

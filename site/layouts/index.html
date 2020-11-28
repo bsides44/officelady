@@ -235,18 +235,18 @@
             <h1>{{ .title }}</h1>
           </div>
           <div class="row">
-            <div class="col-md-6 col-sm-12 service-option mb-md-5">
+            <div class="col-12 service-option mb-md-5">
               {{ with .service_one }}
               <div class="service-label">{{ .name | markdownify }}</div>
               <p class="service-option-text">{{ .text | markdownify }}</p>
               {{ end}}
             </div>
-            <div class="col-md-6 col-sm-12 service-option mb-5">
+            <!-- <div class="col-md-6 col-sm-12 service-option mb-5">
               {{ with .service_two }}
               <div class="service-label">{{ .name | markdownify }}</div>
               <p class="service-option-text">{{ .text | markdownify }}</p>
               {{ end}}
-            </div>
+            </div> -->
           </div>
           <div class="row">
             {{ range .service_items_list }}

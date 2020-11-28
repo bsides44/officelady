@@ -281,8 +281,8 @@ body {
 
 .head-container {
   display: table;
-  position: absolute;
-  top: 0;
+  /* position: absolute; */
+  top: 150px;
   height: 100%;
   color: white;
   font-size: 30px;

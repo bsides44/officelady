@@ -164,7 +164,8 @@ body {
 }
 
 .menu-logo {
-  width: 90px;
+  width: 100px;
+  padding: 5px 15px 0;
   position: relative;
 }
 
@@ -665,7 +666,6 @@ input:checked + label span:last-child {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: space-between;
   font-weight: bold;
   -webkit-transition: background 1s;
   transition: background 1s;
@@ -714,8 +714,6 @@ input:checked + label span:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 82%;
-  justify-self: flex-end;
   height: 55px;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -723,7 +721,8 @@ input:checked + label span:last-child {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  padding-left: 50px;
+  position: relative;
+  left: -50px
 }
 
 .menu-item a {
@@ -757,7 +756,8 @@ input:checked + label span:last-child {
 }
 
 .mobile-menu-logo img {
-  height: 55px;
+  height: 45px;
+  padding: 5px 15px 0;
 }
 
 .mobile-menu a {
@@ -1118,6 +1118,7 @@ ul.experience-chart h4 {
 
 .services-heading {
   position: relative;
+  padding-bottom: 40px;
 }
 
 .services-heading h1 {
@@ -2034,6 +2035,11 @@ textarea.form-control::-webkit-input-placeholder,
 /*--------------------------------
  Start Menu
 ----------------------------------*/
+@media (max-width: 1310px) {
+  .desktop-menu { 
+    padding-left: 50px;
+  }
+}
 
 @media (max-width: 991px) {
   .desktop-menu {

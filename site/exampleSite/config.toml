@@ -67,7 +67,7 @@ weight = 4
 
 #################### default parameters ################################
 [params]
-logo_light = "images/logo.png"
+logo_light = "images/logo_inverted.png"
 logo_dark = "images/logo.png"
 logo_text_one = "the"
 logo_text_two = "Office Lady"

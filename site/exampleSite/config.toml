@@ -75,9 +75,9 @@ logo_text_two = "Office Lady"
 description = "Max King is your virtual assistant. Spend your time making money by getting someone else to do your admin."
 author = "somrat"
 # contact form action
-contact_form_action = "" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/myybdpvo" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # your id
+google_analitycs_id = "G-2K3EWN2EQX" # your id
 
 # Preloader
 [params.preloader]
